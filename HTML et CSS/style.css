@@ -1,0 +1,217 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D2D2D;
+}   */
+
+Couleur{
+    color: #0C1212;
+    color: #0A0F0F;
+    color: #005858;
+    color: #00B2B2;
+    color: #B2FFFF 40%;
+}
+
+header{
+    background-color: #0C1212; 
+    height: 700px;
+    width: 100%; 
+} 
+
+nav{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoNav img{
+    height: 100px;
+    width: 100%;
+    margin-left: 16px;
+}
+
+.lienContainer{
+    
+    height: 200px;
+    width:50%;
+    font-size: medium;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.boutonNav{
+    height: 75px;
+    width: 20%;
+    font-size: larger;
+    background-color:#00B2B2 ;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+
+.backImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 500px;
+    width: 100%;
+    background: url("./navbackground.webp") no-repeat;
+    background-size: cover;
+    
+    background-position: center;
+}
+
+.textImage{
+    background-color:hsl(180, 100%, 85%,40%) ;
+    height: 350px;
+    width: 65%;
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 24px;
+    }
+
+main{
+    height: 1600px;
+    width: 100%;
+    background-color:#0A0F0F ;
+}
+
+.sectionVoitures{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titreVoitures{
+    height: 200px;
+    width: 100%;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 100px;
+}
+
+.voituresContainer{
+    
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.voit1{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.toffVoit1{
+background: url("./img-vehicules.webp") no-repeat;
+background-size: cover;
+height: 60%;
+width: 90%;
+border-radius: 9px;
+
+}
+
+.boutonVoit{
+    height: 40px;
+    width: 80%;
+background-color: #005858;
+color: white;
+border-radius: 9px;
+}
+
+.boutonCata{
+    height: 75px;
+    width: 50%;
+    background-color:#00B2B2 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionPromesse{
+    height: 800px;
+    width: 100%;
+
+}
+.titreProm{
+    color: white;
+    height: 200px;
+    width: 100%;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.servicesContainer{
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+
+}
+
+.blockService{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgServices{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./Vector.png") no-repeat ;
+    background-size: contain;
+    margin-bottom: 30px;
+    
+    
+}
+
+.textServices{
+    color: white;
+    font-size: 300%;
+}

@@ -13,6 +13,7 @@
     background-color: #2D2D2D;
 }   */
 
+
 Couleur{
     color: #0C1212;
     color: #0A0F0F;
@@ -20,6 +21,17 @@ Couleur{
     color: #00B2B2;
     color: #B2FFFF 40%;
 }
+
+
+/* ! declarer une variable en CSS
+:root{
+    --color: #0C1212;
+    --color2: #0A0F0F;
+    --color3: #005858;
+    --color4: #00B2B2;
+    --color5: #B2FFFF 40%;
+
+} */
 
 header{
     background-color: #0C1212; 
@@ -46,14 +58,14 @@ nav{
 .lienContainer{
     
     height: 200px;
-    width:50%;
+    width:50%; /* un peu grand peu etre*/
     font-size: medium;
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    
+    /* plutot space aroud */
     
 }
 
